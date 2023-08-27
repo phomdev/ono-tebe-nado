@@ -10,7 +10,9 @@
 	align-items: center;
 }
 
-.header__navigation { justify-self: start }
+.header__navigation { 
+	justify-self: start;
+}
 
 .header__menu {
 	display: flex;
@@ -18,13 +20,14 @@
 	min-width: 388px;
 }
 
-.header__menu-inner { list-style: circle }
-
-.header__menu-inner:first-of-type { list-style: none }
-
-.header__menu-inner {
+.header__menu-inner { 
 	font-size: 18px;
 	font-weight: 400;
+	list-style: circle;
+}
+
+.header__menu-inner:first-of-type { 
+	list-style: none; 
 }
 
 .header__menu-inner a:hover {
@@ -44,7 +47,9 @@
 	padding-bottom: 1px;
 }
 
-.header__link_active { border-bottom: none }
+.header__link_active { 
+	border-bottom: none; 
+}
 
 .header__logo {
 	display: block;
@@ -60,7 +65,9 @@
 	line-height: 1.35;
 }
 
-.header__address { justify-self: end }
+.header__address { 
+	justify-self: end; 
+}
 
 /* Общий селектор для адреса */
 .address__link {
@@ -123,13 +130,21 @@
 }
 
 /* Расположение букв в оверлее */
-.cover__title-letter-spacing-extended { letter-spacing: 0.6em }
+.cover__title-letter-spacing-extended { 
+	letter-spacing: 0.6em;
+}
 
-.cover__title-aligned-text_center { text-align: center }
+.cover__title-aligned-text_center { 
+	text-align: center;
+}
 
-.cover__title-aligned-text_right { text-align: right }
+.cover__title-aligned-text_right { 
+	text-align: right; 
+}
 
-.cover__title-no-letter-spacing { letter-spacing: initial }
+.cover__title-no-letter-spacing { 
+	letter-spacing: initial; 
+}
 
 .cover__description-area {
 	margin-top: 135px;
@@ -166,7 +181,9 @@
 }
 
 /* Начало стилей секции лотов */
-.lots { margin-bottom: 180px }
+.lots { 
+	margin-bottom: 180px; 
+}
 
 .lots__heading {
 	padding: 0 0 27px 40px;
@@ -190,7 +207,9 @@
   min-height: 450px;
 }
 
-.card-link { text-decoration: none }
+.card-link { 
+	text-decoration: none; 
+}
 
 .card {
 	padding: 50px 40px;
@@ -205,11 +224,17 @@
 }
 
 /* Изображения лотов аукциона */
-.card_image_film { background-image: url(../images/card-lot-01.jpg) }
+.card_image_film { 
+	background-image: url(../images/card-lot-01.jpg);
+}
 
-.card_image_book { background-image: url(../images/card-lot-02.jpg) }
+.card_image_book { 
+	background-image: url(../images/card-lot-02.jpg);
+}
 
-.card_image_picture { background-image: url(../images/card-lot-03.jpg) }
+.card_image_picture { 
+	background-image: url(../images/card-lot-03.jpg);
+}
 
 .card__title {
   position: relative;
@@ -302,7 +327,9 @@
 	text-decoration: none;
 }
 
-.footer__menu-link_active { border-bottom: none }
+.footer__menu-link_active { 
+	border-bottom: none;
+}
 
 .footer__social-list {
 	display: flex;
