@@ -10,7 +10,7 @@
 	align-items: center;
 }
 
-.header__navigation { 
+.header__navigation {
 	justify-self: start;
 }
 
@@ -20,14 +20,14 @@
 	min-width: 388px;
 }
 
-.header__menu-inner { 
+.header__menu-inner {
 	font-size: 18px;
 	font-weight: 400;
 	list-style: circle;
 }
 
-.header__menu-inner:first-of-type { 
-	list-style: none; 
+.header__menu-inner:first-of-type {
+	list-style: none;
 }
 
 .header__menu-inner a:hover {
@@ -47,8 +47,8 @@
 	padding-bottom: 1px;
 }
 
-.header__link_active { 
-	border-bottom: none; 
+.header__link_active {
+	border-bottom: none;
 }
 
 .header__logo {
@@ -65,8 +65,8 @@
 	line-height: 1.35;
 }
 
-.header__address { 
-	justify-self: end; 
+.header__address {
+	justify-self: end;
 }
 
 /* Общий селектор для адреса */
@@ -130,20 +130,20 @@
 }
 
 /* Расположение букв в оверлее */
-.cover__title-letter-spacing-extended { 
+.cover__title-letter-spacing-extended {
 	letter-spacing: 0.6em;
 }
 
-.cover__title-aligned-text_center { 
+.cover__title-aligned-text_center {
 	text-align: center;
 }
 
-.cover__title-aligned-text_right { 
-	text-align: right; 
+.cover__title-aligned-text_right {
+	text-align: right;
 }
 
-.cover__title-no-letter-spacing { 
-	letter-spacing: initial; 
+.cover__title-no-letter-spacing {
+	letter-spacing: initial;
 }
 
 .cover__description-area {
@@ -181,8 +181,8 @@
 }
 
 /* Начало стилей секции лотов */
-.lots { 
-	margin-bottom: 180px; 
+.lots {
+	margin-bottom: 180px;
 }
 
 .lots__heading {
@@ -207,8 +207,8 @@
   min-height: 450px;
 }
 
-.card-link { 
-	text-decoration: none; 
+.card-link {
+	text-decoration: none;
 }
 
 .card {
@@ -224,15 +224,15 @@
 }
 
 /* Изображения лотов аукциона */
-.card_image_film { 
+.card_image_film {
 	background-image: url(../images/card-lot-01.jpg);
 }
 
-.card_image_book { 
+.card_image_book {
 	background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_image_picture { 
+.card_image_picture {
 	background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -327,8 +327,8 @@
 	text-decoration: none;
 }
 
-.footer__menu-link_active { 
-	border-bottom: none;
+.footer__menu-link_active {
+  border-bottom: none;
 }
 
 .footer__social-list {
